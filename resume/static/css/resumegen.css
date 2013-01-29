@@ -1,0 +1,18 @@
+.section-spacer {
+    margin-top: 40px;
+}
+
+body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+footer[role="contentinfo"] {
+    margin-top: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #f2f2f2;
+    text-align: center;
+}
+footer[role="contentinfo"] p {
+    color: #999;
+    margin: 0;
+}
