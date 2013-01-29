@@ -136,7 +136,7 @@ function PopulateSampleResume(resume){
     projects.addLine();
     projects.lines[0].lineText = "Srickie: Android game. www.brakus.rs/srickie";
     projects.addLine();
-    projects.lines[1].lineText = "ResumeGenerator: PDF Resume generator Web Application (Technologies: ReportLab, Django, AngularJS, Bootstrap)";
+    projects.lines[1].lineText = "ResumeGenerator: PDF Resume generator Web Application (Technologies: ReportLab, Django, AngularJS, Bootstrap). https://github.com/jovanbrakus/resumegen";
     projects.addLine();
     projects.lines[2].lineText = "CherryPy-Example: CherryPy Simple demonstration app (Technologies: CherryPy, Jinja2). https://github.com/jovanbrakus/cherrypy-example";
     
