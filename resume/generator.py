@@ -195,14 +195,14 @@ def demo():
     
     employment_sub_emsys_1 = {
         "title_left": "Head of Research&Development",
-        "title_middle": "EMSyS Design Inc.",
+        "title_middle": "EMSYS Design Inc.",
         "title_right": "September 2012 - ...",
         "text_tuples": [(False, "CellSPY Server Software"),
                         (True, "Responsible for architecture and design of complete CellSPY Server solution. ")]
     }
     employment_sub_emsys_2 = {
         "title_left": "Senior Software Engineer",
-        "title_middle": "EMSyS Design Inc.",
+        "title_middle": "EMSYS Design Inc.",
         "title_right": "December 2011 - September 2012",
         "text_tuples": [(False, "CellSPY Server Software"),
                         (True, "Implementing complete CellSPY Server software solution. ")]
@@ -229,7 +229,7 @@ def demo():
         "title_left": "Belgrade, Serbia",
         "title_middle": "School of Electrical Engineering",
         "title_right": "2001 - 2007",
-        "text_tuples": [(True, "Major: Computer Science")]
+        "text_tuples": [(True, "Major: Computer Science"),(True, "Degree: MSc and BSc")]
     }
     education_math = {
         "title_left": "Belgrade, Serbia",
@@ -244,27 +244,26 @@ def demo():
         "text_tuples": [(True, "Major: Opera singing... but really :)")]
     }
     tech_experience = {
-        "title_left": "Projects",
+        "title_left": "Hobby Projects",
         "title_middle": "",
         "title_right": "",
-        "text_tuples": [(True, "Srickie: Android game. Available freely on Play Store. www.brakus.rs/srickie"),
-                        (True, "ResumeGenerator: PDF Resume generator Web Application (Technologies: ReportLab, Django, AngularJS, Bootstrap). Source: https://github.com/jovanbrakus/resumegen"),
-                        (True, "CherryPy-Example: CherryPy Simple demonstration app (Technologies: CherryPy, Jinja2). https://github.com/jovanbrakus/cherrypy-example")]
+        "text_tuples": [(True, "Srickie: Android, Windows Phone and FirefoxOS game. Available freely on official platform stores. www.brakus.rs/srickie"),
+                        (True, "ResumeGenerator: PDF Resume generator WebApp (Python-ReportLab, Django, AngularJS, Bootstrap). Source: https://github.com/jovanbrakus/resumegen"),
+                        (True, "CherryPy-Example: CherryPy Simple demonstration app (Python-CherryPy, Jinja2). https://github.com/jovanbrakus/cherrypy-example")]
     }
     additional_experience = {
         "title_left": "",
         "title_middle": "",
         "title_right": "",
-        "text_tuples": [(True, "Some awards at Mathematics contest on Country and State levels through Elementary and High School."),
-                        (True, "Some awards at Informatics contest on Country and State levels through Elementary and High School."),
-                        (True, "Some awards at Opera singing contest on Country and State levels through Elementary and High School.")]
+        "text_tuples": [(True, "Awards at Mathematics contest on Country and State levels through Elementary and High School."),
+                        (True, "Awards at Informatics contest on Country and State levels through Elementary and High School.")]
     }
     languages = {
         "title_left": "",
         "title_middle": "",
         "title_right": "",
-        "text_tuples": [(True, "C, C++, C#, Python, Perl, JavaScript, ActionScript, SQL"),
-                        (True, "Windows, Linux, Visual Studio, Eclipse, Vim")]
+        "text_tuples": [(True, "Python, JavaScript, C#, C, C++, Perl, ActionScript, SQL"),
+                        (True, "Linux, Windows, Heroku, AWS, GoogleAppEngine")]
     }
     
     sections = [
