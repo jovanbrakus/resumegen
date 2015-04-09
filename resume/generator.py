@@ -190,7 +190,7 @@ def demo():
     """
     
     full_name = "Jovan Brakus"
-    address_lines = ["My home street #37", "21000 Novi Sad", "Serbia"]
+    address_lines = ["My secret street :)", "21000 Novi Sad", "Serbia"]
     contact_lines = ["(+381) 63 8102960", "jovan@brakus.rs", "www.brakus.rs"]
     
     employment_sub_emsys_1 = {
@@ -198,24 +198,28 @@ def demo():
         "title_middle": "EMSYS Design Inc.",
         "title_right": "September 2012 - ...",
         "text_tuples": [(False, "CellSPY Server Software"),
-                        (True, "Responsible for architecture and design of complete CellSPY Server solution. ")]
+                        (True, "Responsible for architecture and design of complete CellSPY Server solution."),
+                        (True, "Migrated legacy Flex client to html/js."), 
+                        (True, "Technologies: Linux/Ubuntu, Python (Django, CherryPy, ReportLab...), MySQL, html/js (KendoUI, Angularjs, jQuery...), C")]
     }
     employment_sub_emsys_2 = {
         "title_left": "Senior Software Engineer",
         "title_middle": "EMSYS Design Inc.",
         "title_right": "December 2011 - September 2012",
         "text_tuples": [(False, "CellSPY Server Software"),
-                        (True, "Implementing complete CellSPY Server software solution. ")]
+                        (True, "Laid out complete infrastructure of CellSPY Server software solutioni."),
+                        (True, "Implemented new core features on top of new infrastructure: Administration WebApp, Reporting engine, Alarming engine..."),
+                        (True, "Technologies: Linux/Ubuntu, Python (Django, CherryPy, ReportLab...), MySQL, ActiveScript/Flex, C#, C")]
     }
     employment_sub_dms_1 = {
         "title_left": "Senior Software Engineer",
         "title_middle": "Telvent DMS",
         "title_right": "June 2008 - December 2011",
         "text_tuples": [(False, "Power Management Software"),
-                        (True, "Led a team of 4 engineers through architecturing and development phase of Power Management Software solution"),
-                        (True, "Project was a layered scada application which relied on Telvent's OASyS Scada infrastructure and implementing power algorithms"),
+                        (True, "Led a small team of engineers through architecturing and development phase of Power Management Software solution"),
+                        (True, "Project was a layered scada application which sit on top of Telvent's OASyS Scada infrastructure"),
                         (True, "Power functions implemented: Automatic generation control, Economic Dispatching and Load Predictions"),
-                        (True, "Technologies used: Windows, .NET Framework, C++/CLI, C#, Visual Basic, Perl, COM")]
+                        (True, "Technologies: Windows, .NET Framework, C++/CLI, C#, Visual Basic, Perl, COM")]
     }
     employment_sub_dms_2 = {
         "title_left": "Software Engineer",
@@ -223,7 +227,7 @@ def demo():
         "title_right": "Februar 2007 - June 2008",
         "text_tuples": [(False, "Scada<->DMS Integration component"),
                         (True, "Independently created and implemented dynamical scada data integration component between OASyS DNA Scada and DMS Software"),
-                        (True, "Technologies used: Windows, .NET Framework, C++/CLI, C#, COM")]
+                        (True, "Technologies: Windows, .NET Framework, C++/CLI, C#, COM")]
     }
     education_etf = {
         "title_left": "Belgrade, Serbia",
@@ -248,7 +252,7 @@ def demo():
         "title_middle": "",
         "title_right": "",
         "text_tuples": [(True, "Srickie: Android, Windows Phone and FirefoxOS game. Available freely on official platform stores. www.brakus.rs/srickie"),
-                        (True, "ResumeGenerator: PDF Resume generator WebApp (Python-ReportLab, Django, AngularJS, Bootstrap). Source: https://github.com/jovanbrakus/resumegen"),
+                        (True, "1Page Resume Generator: PDF Resume generator WebApp, used to create this resume (Python-ReportLab, Django, AngularJS, Bootstrap). Source: https://github.com/jovanbrakus/resumegen"),
                         (True, "CherryPy-Example: CherryPy Simple demonstration app (Python-CherryPy, Jinja2). https://github.com/jovanbrakus/cherrypy-example")]
     }
     additional_experience = {
@@ -269,7 +273,7 @@ def demo():
     sections = [
         ("Employment", [employment_sub_emsys_1, employment_sub_emsys_2, employment_sub_dms_1, employment_sub_dms_2]),
         ("Education", [education_etf, education_math, education_music]),
-        ("Technical Experience", [tech_experience]),
+        ("Side work", [tech_experience]),
         ("Additional Experience and Awards", [additional_experience]),
         ("Languages and Technologies", [languages])]
     
